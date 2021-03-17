@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4681641386305425839
+  m_GuidHigh: 8795738557449585034
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5431338894359415364
+      m_GuidHigh: 9566951081385278372
+    m_SerializedTextureGuid:
+      m_GuidLow: 10206555282188512140
+      m_GuidHigh: 4846685842748232218
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: bee
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5347475585056789596
+      m_GuidHigh: 17328493128591586221
+    m_SerializedTextureGuid:
+      m_GuidLow: 2059399445606999991
+      m_GuidHigh: 6638574408504184073
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: butterfly
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4785410709614671670
+      m_GuidHigh: 77566755234578608
+    m_SerializedTextureGuid:
+      m_GuidLow: 10769283288904202146
+      m_GuidHigh: 5027483109282593690
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: daisy
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5020349673468383391
+      m_GuidHigh: 1898663755139154878
+    m_SerializedTextureGuid:
+      m_GuidLow: 17263642847878274583
+      m_GuidHigh: 5311384159260342090
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: lotus
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4975165611335901982
+      m_GuidHigh: 7279401801046357900
+    m_SerializedTextureGuid:
+      m_GuidLow: 16714136003431226726
+      m_GuidHigh: 14194558899629008297
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: rose
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4941285149711447503
+      m_GuidHigh: 9212961834470106249
+    m_SerializedTextureGuid:
+      m_GuidLow: 2388217525089559340
+      m_GuidHigh: 10563953911345531928
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: swans
+    m_Texture: {fileID: 0}
