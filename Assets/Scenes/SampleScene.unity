@@ -617,6 +617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e51388a80b21c5f41bf2c868e6577a3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 684512452}
   m_TrackedImageManager: {fileID: 620102900}
 --- !u!1 &669865384
 GameObject:
@@ -859,7 +860,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &684512453
 MonoBehaviour:
   m_ObjectHideFlags: 0

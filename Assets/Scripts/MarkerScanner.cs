@@ -5,6 +5,8 @@ using UnityEngine.XR.ARFoundation;
 
 public class MarkerScanner : MonoBehaviour
 {
+    public GameObject canvas;
+
     [SerializeField]
     ARTrackedImageManager m_TrackedImageManager;
 
@@ -17,6 +19,7 @@ public class MarkerScanner : MonoBehaviour
         foreach (var newImage in eventArgs.added)
         {
             // Handle added event
+            canvas.SetActive(true);
         }
 
         foreach (var updatedImage in eventArgs.updated)
