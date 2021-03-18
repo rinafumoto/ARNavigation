@@ -471,3 +471,830 @@ System memory in use after: 43.8 MB.
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2016.
 Total: 3.242700 ms (FindLiveObjects: 0.239200 ms CreateObjectMapping: 0.145600 ms MarkObjects: 2.805400 ms  DeleteObjects: 0.049900 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1808.377141 seconds.
+  path: Assets/Materials/FloorPlan.mat
+  artifactKey: Guid(41c073e6e4a351d4e9f623b753a7491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/FloorPlan.mat using Guid(41c073e6e4a351d4e9f623b753a7491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3d4bda340b09b30cfcec5ce15c791a') in 0.140089 seconds
+  Import took 0.147766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.844171 seconds.
+  path: Assets/Materials/Pointer.mat
+  artifactKey: Guid(a0024587aa757414c95a9bb7bcfa59a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pointer.mat using Guid(a0024587aa757414c95a9bb7bcfa59a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfa6efda6f6e6b419a4b34f37e8deb9') in 0.058618 seconds
+  Import took 0.062791 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006015 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.693 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2020.
+Total: 7.439000 ms (FindLiveObjects: 0.629800 ms CreateObjectMapping: 0.226600 ms MarkObjects: 6.507700 ms  DeleteObjects: 0.071000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.021748 seconds.
+  path: Assets/XR
+  artifactKey: Guid(faf5e3d053b18b848bbb4f39539acd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(faf5e3d053b18b848bbb4f39539acd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fd6d6072724df8af25c7f17db80cd0') in 0.040638 seconds
+  Import took 0.046061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.124191 seconds.
+  path: Assets/XR/ReferenceImageLibrary.asset
+  artifactKey: Guid(c5cf5c74ff01274448b0fdfb63a21c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/ReferenceImageLibrary.asset using Guid(c5cf5c74ff01274448b0fdfb63a21c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0b52311284bf3cc1edda55a649dda9') in 0.062324 seconds
+  Import took 0.067343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(f4b1444035965874497e0de119a0b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(f4b1444035965874497e0de119a0b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85657194eed588f954a883245ef72607') in 0.054667 seconds
+  Import took 0.058676 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005302 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.544 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2022.
+Total: 8.153100 ms (FindLiveObjects: 0.891000 ms CreateObjectMapping: 0.181500 ms MarkObjects: 6.969700 ms  DeleteObjects: 0.107700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 94.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.2 MB.
+System memory in use after: 44.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2023.
+Total: 3.776600 ms (FindLiveObjects: 0.347900 ms CreateObjectMapping: 0.120200 ms MarkObjects: 3.265500 ms  DeleteObjects: 0.039700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 64.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.1 MB.
+System memory in use after: 44.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2023.
+Total: 3.660900 ms (FindLiveObjects: 0.298300 ms CreateObjectMapping: 0.098800 ms MarkObjects: 3.233700 ms  DeleteObjects: 0.025700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006900 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.376 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 2.398700 ms (FindLiveObjects: 0.226200 ms CreateObjectMapping: 0.079000 ms MarkObjects: 2.043700 ms  DeleteObjects: 0.048500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 77.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.5 MB.
+System memory in use after: 43.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2026.
+Total: 3.523800 ms (FindLiveObjects: 0.225400 ms CreateObjectMapping: 0.082400 ms MarkObjects: 3.189600 ms  DeleteObjects: 0.024400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009123 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.910 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2029.
+Total: 2.751700 ms (FindLiveObjects: 0.286000 ms CreateObjectMapping: 0.071700 ms MarkObjects: 2.365500 ms  DeleteObjects: 0.026800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 80.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.5 MB.
+System memory in use after: 43.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2029.
+Total: 2.866300 ms (FindLiveObjects: 0.277100 ms CreateObjectMapping: 0.090600 ms MarkObjects: 2.470100 ms  DeleteObjects: 0.026300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009052 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.815 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2032.
+Total: 4.025500 ms (FindLiveObjects: 0.324600 ms CreateObjectMapping: 0.101400 ms MarkObjects: 3.549000 ms  DeleteObjects: 0.047500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 84.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.7 MB.
+System memory in use after: 43.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2032.
+Total: 4.252900 ms (FindLiveObjects: 0.234000 ms CreateObjectMapping: 0.095000 ms MarkObjects: 3.883900 ms  DeleteObjects: 0.037700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011352 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.043 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.5 MB.
+System memory in use after: 73.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2035.
+Total: 2.589700 ms (FindLiveObjects: 0.229900 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.257700 ms  DeleteObjects: 0.025000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013685 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.245 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 3.001400 ms (FindLiveObjects: 0.252700 ms CreateObjectMapping: 0.066500 ms MarkObjects: 2.654500 ms  DeleteObjects: 0.025800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 117.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.0 MB.
+System memory in use after: 44.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 3.178400 ms (FindLiveObjects: 0.275000 ms CreateObjectMapping: 0.097300 ms MarkObjects: 2.773600 ms  DeleteObjects: 0.030400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012362 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.230 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2041.
+Total: 2.921800 ms (FindLiveObjects: 0.355700 ms CreateObjectMapping: 0.084300 ms MarkObjects: 2.451600 ms  DeleteObjects: 0.027400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 120.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.1 MB.
+System memory in use after: 44.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2041.
+Total: 3.107200 ms (FindLiveObjects: 0.274600 ms CreateObjectMapping: 0.097000 ms MarkObjects: 2.704400 ms  DeleteObjects: 0.029700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011453 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.280 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2044.
+Total: 6.952600 ms (FindLiveObjects: 0.533200 ms CreateObjectMapping: 0.240800 ms MarkObjects: 6.103400 ms  DeleteObjects: 0.071100 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 133.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.4 MB.
+System memory in use after: 43.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2044.
+Total: 4.544200 ms (FindLiveObjects: 0.282300 ms CreateObjectMapping: 0.094900 ms MarkObjects: 4.127100 ms  DeleteObjects: 0.037900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019413 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 15.455 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2047.
+Total: 2.759100 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.081400 ms MarkObjects: 2.384000 ms  DeleteObjects: 0.025800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 166.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.6 MB.
+System memory in use after: 43.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2047.
+Total: 5.492200 ms (FindLiveObjects: 0.306200 ms CreateObjectMapping: 0.117800 ms MarkObjects: 5.020700 ms  DeleteObjects: 0.045700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017206 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 17.028 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2050.
+Total: 2.578000 ms (FindLiveObjects: 0.237300 ms CreateObjectMapping: 0.091300 ms MarkObjects: 2.223100 ms  DeleteObjects: 0.025200 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 176.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.7 MB.
+System memory in use after: 43.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2050.
+Total: 3.163900 ms (FindLiveObjects: 0.293300 ms CreateObjectMapping: 0.088800 ms MarkObjects: 2.754600 ms  DeleteObjects: 0.025000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017510 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 18.475 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2052.
+Total: 2.566200 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.081200 ms MarkObjects: 2.201200 ms  DeleteObjects: 0.049900 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 187.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.1 MB.
+System memory in use after: 44.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2053.
+Total: 5.477900 ms (FindLiveObjects: 0.292000 ms CreateObjectMapping: 0.103200 ms MarkObjects: 5.038500 ms  DeleteObjects: 0.041700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018582 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 21.985 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2056.
+Total: 2.728200 ms (FindLiveObjects: 0.265400 ms CreateObjectMapping: 0.084400 ms MarkObjects: 2.350600 ms  DeleteObjects: 0.026400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 195.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.1 MB.
+System memory in use after: 44.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2056.
+Total: 4.301800 ms (FindLiveObjects: 0.314800 ms CreateObjectMapping: 0.130000 ms MarkObjects: 3.813300 ms  DeleteObjects: 0.041000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021742 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 23.614 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 74.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2059.
+Total: 2.876400 ms (FindLiveObjects: 0.291000 ms CreateObjectMapping: 0.074600 ms MarkObjects: 2.483200 ms  DeleteObjects: 0.026200 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 221.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.3 MB.
+System memory in use after: 43.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2059.
+Total: 5.261300 ms (FindLiveObjects: 0.270100 ms CreateObjectMapping: 0.100600 ms MarkObjects: 4.844300 ms  DeleteObjects: 0.043200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021518 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 26.596 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2062.
+Total: 6.795900 ms (FindLiveObjects: 0.604300 ms CreateObjectMapping: 0.271000 ms MarkObjects: 5.867400 ms  DeleteObjects: 0.050000 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 231.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.5 MB.
+System memory in use after: 43.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2062.
+Total: 3.742600 ms (FindLiveObjects: 0.323600 ms CreateObjectMapping: 0.148200 ms MarkObjects: 3.236200 ms  DeleteObjects: 0.032100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023035 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 28.724 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2065.
+Total: 2.910200 ms (FindLiveObjects: 0.294300 ms CreateObjectMapping: 0.081500 ms MarkObjects: 2.499900 ms  DeleteObjects: 0.033000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022595 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 29.231 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.5 MB.
+System memory in use after: 73.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2068.
+Total: 3.448400 ms (FindLiveObjects: 0.297300 ms CreateObjectMapping: 0.084800 ms MarkObjects: 3.037100 ms  DeleteObjects: 0.028000 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 381.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.8 MB.
+System memory in use after: 43.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2068.
+Total: 4.359500 ms (FindLiveObjects: 0.594100 ms CreateObjectMapping: 0.198300 ms MarkObjects: 3.533300 ms  DeleteObjects: 0.029500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022130 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 30.875 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2071.
+Total: 2.115100 ms (FindLiveObjects: 0.212000 ms CreateObjectMapping: 0.069600 ms MarkObjects: 1.812700 ms  DeleteObjects: 0.019400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 266.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.0 MB.
+System memory in use after: 44.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2071.
+Total: 5.845700 ms (FindLiveObjects: 0.608700 ms CreateObjectMapping: 0.231700 ms MarkObjects: 4.971200 ms  DeleteObjects: 0.030800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025668 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 33.604 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2074.
+Total: 6.170100 ms (FindLiveObjects: 0.505300 ms CreateObjectMapping: 0.203700 ms MarkObjects: 5.391300 ms  DeleteObjects: 0.066200 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 260.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 44.2 MB.
+System memory in use after: 44.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2074.
+Total: 3.888300 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.110800 ms MarkObjects: 3.465300 ms  DeleteObjects: 0.026800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023609 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 34.993 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.0 MB.
+System memory in use after: 74.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2077.
+Total: 2.483600 ms (FindLiveObjects: 0.223300 ms CreateObjectMapping: 0.077000 ms MarkObjects: 2.155000 ms  DeleteObjects: 0.026500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 253.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.4 MB.
+System memory in use after: 43.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2077.
+Total: 3.565200 ms (FindLiveObjects: 0.285400 ms CreateObjectMapping: 0.118700 ms MarkObjects: 3.131300 ms  DeleteObjects: 0.027800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 258.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.4 MB.
+System memory in use after: 43.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2077.
+Total: 4.835000 ms (FindLiveObjects: 0.393300 ms CreateObjectMapping: 0.262300 ms MarkObjects: 4.143100 ms  DeleteObjects: 0.033100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031546 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 35.792 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2079.
+Total: 2.645700 ms (FindLiveObjects: 0.266900 ms CreateObjectMapping: 0.083800 ms MarkObjects: 2.239400 ms  DeleteObjects: 0.054400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 265.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.8 MB.
+System memory in use after: 43.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2080.
+Total: 3.187500 ms (FindLiveObjects: 0.278000 ms CreateObjectMapping: 0.117600 ms MarkObjects: 2.757700 ms  DeleteObjects: 0.031900 ms)
+
