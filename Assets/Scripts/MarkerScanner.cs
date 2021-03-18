@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 
 public class MarkerScanner : MonoBehaviour
 {
-    public GameObject canvas;
+    public GameObject dropdown;
+    public GameObject minimap;
+    public Text text;
 
     [SerializeField]
     ARTrackedImageManager m_TrackedImageManager;
@@ -19,12 +22,15 @@ public class MarkerScanner : MonoBehaviour
         foreach (var newImage in eventArgs.added)
         {
             // Handle added event
-            canvas.SetActive(true);
+            text.text = "";
+            dropdown.SetActive(true);
+            minimap.SetActive(true);
         }
 
         foreach (var updatedImage in eventArgs.updated)
         {
             // Handle updated event
+            //text.text = updatedImage.referenceImage.name;
         }
 
         foreach (var removedImage in eventArgs.removed)
