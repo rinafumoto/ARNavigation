@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "ZE2225L6KT",
         "name": "com.DefaultCompany.FYP2",
-        "processId": 18248,
+        "processId": 19991,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -144,6 +144,12 @@
             "deviceId": "ZE2225L6KT",
             "name": "com.DefaultCompany.FYP2",
             "processId": 18248,
+            "exited": false
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 19991,
             "exited": false
         }
     ],

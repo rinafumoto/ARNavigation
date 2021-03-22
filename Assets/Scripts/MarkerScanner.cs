@@ -16,8 +16,6 @@ public class MarkerScanner : MonoBehaviour
     public GameObject butterfly;
     public GameObject daisy;
     public GameObject map;
-    //public GameObject ARSessionOrigin;
-    //public ARSession ARSession;
     public bool scanned = false;
     public GameObject anchor;
 

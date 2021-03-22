@@ -7,7 +7,6 @@ public class Tracking : MonoBehaviour
 {
     public GameObject minimapCamera;
     public GameObject ARCamera;
-    public GameObject ARSessionOrigin;
     public Vector3 prevPosition;
     public Vector3 currPosition;
     public Text text;

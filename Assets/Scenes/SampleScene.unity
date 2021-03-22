@@ -573,7 +573,7 @@ Transform:
   - {fileID: 254408699}
   - {fileID: 766855281}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &620102897
 GameObject:
@@ -677,7 +677,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minimapCamera: {fileID: 849798237}
   ARCamera: {fileID: 1789304756}
-  ARSessionOrigin: {fileID: 620102897}
   prevPosition: {x: 0, y: 0, z: 0}
   currPosition: {x: 0, y: 0, z: 0}
   text: {fileID: 1090989834}
@@ -1047,7 +1046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 788309810}
   m_Layer: 0
-  m_Name: anchor
+  m_Name: Anchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1149,7 +1148,7 @@ Transform:
   m_Children:
   - {fileID: 895133998}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &895133997
 GameObject:
@@ -1305,12 +1304,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904292077}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1090989832
 GameObject:
