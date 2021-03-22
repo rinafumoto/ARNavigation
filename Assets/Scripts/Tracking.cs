@@ -27,5 +27,7 @@ public class Tracking : MonoBehaviour
         diffPosition.y = 0.0f;
         minimapCamera.transform.position = minimapCamera.transform.position + diffPosition;
         prevPosition = currPosition;
+        Quaternion diffrot = ARCamera.transform.rotation * Quaternion.Inverse(anchor.transform.rotation);
+        minimapCamera.transform.eulerAngles = new Vector3(90, diffrot.eulerAngles.y, 0);
     }
 }
