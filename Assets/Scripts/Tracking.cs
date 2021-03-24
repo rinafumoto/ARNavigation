@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.UI;
 
 public class Tracking : MonoBehaviour
@@ -11,11 +12,19 @@ public class Tracking : MonoBehaviour
     public Vector3 currPosition;
     public Text text;
     public GameObject anchor;
+    private NavMeshPath navmesh;
+    public GameObject path;
+    private LineRenderer line;
+    public GameObject dropdown;
+    public GameObject pointer;
+    private GameObject dest;
 
     // Start is called before the first frame update
     void Start()
     {
         prevPosition = anchor.transform.InverseTransformPoint(ARCamera.transform.position);
+        navmesh = new NavMeshPath();
+        line = path.GetComponent<LineRenderer>();
     }
 
     // Update is called once per frame
@@ -28,5 +37,14 @@ public class Tracking : MonoBehaviour
         prevPosition = currPosition;
         Quaternion diffrot = ARCamera.transform.rotation * Quaternion.Inverse(anchor.transform.rotation);
         minimapCamera.transform.eulerAngles = new Vector3(90, diffrot.eulerAngles.y, 0);
+        text.text = minimapCamera.transform.eulerAngles.ToString();
+        if (dropdown.GetComponent<Dropdown>().value != 0)
+        {
+            dest = GameObject.Find(dropdown.GetComponent<Dropdown>().captionText.text);
+            NavMesh.CalculatePath(pointer.transform.position, dest.transform.position, NavMesh.AllAreas, navmesh);
+            line.positionCount = navmesh.corners.Length;
+            line.SetPositions(navmesh.corners);
+            line.enabled = true;
+        }
     }
 }

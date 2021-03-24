@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using UnityEngine.AI;
 using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
@@ -12,12 +13,15 @@ public class MarkerScanner : MonoBehaviour
     public GameObject minimap;
     public GameObject minimapCamera;
     public GameObject ARCamera;
-    //public GameObject bee;
-    //public GameObject butterfly;
-    //public GameObject daisy;
     public GameObject map;
-    public bool scanned = false;
+    public GameObject marker;
+    private bool scanned;
     public GameObject anchor;
+    //private NavMeshPath navmesh;
+    //public GameObject path;
+    //private LineRenderer line;
+    //public GameObject pointer;
+
 
 
     [SerializeField]
@@ -32,9 +36,12 @@ public class MarkerScanner : MonoBehaviour
         foreach (var newImage in eventArgs.added)
         {
             // Handle added event
-            text.text = "";
-            dropdown.SetActive(true);
-            minimap.SetActive(true);
+            if (text.text == "Please scan a marker")
+            {
+                text.text = "";
+                dropdown.SetActive(true);
+                minimap.SetActive(true);
+            }
         }
 
         foreach (var updatedImage in eventArgs.updated)
@@ -47,12 +54,10 @@ public class MarkerScanner : MonoBehaviour
             if (updatedImage.trackingState == TrackingState.Tracking && !scanned)
             {
                 scanned = true;
-                GameObject marker = GameObject.Find(updatedImage.referenceImage.name);
-                map.transform.eulerAngles = new Vector3(0, map.transform.eulerAngles.y - marker.transform.eulerAngles.y, 0);
+                marker = GameObject.Find(updatedImage.referenceImage.name);
                 minimapCamera.transform.position = marker.transform.position;
                 anchor.transform.position = ARCamera.transform.position;
-                anchor.transform.rotation = ARCamera.transform.rotation;
-
+                anchor.transform.eulerAngles = new Vector3(ARCamera.transform.eulerAngles.x, ARCamera.transform.eulerAngles.y - marker.transform.eulerAngles.y, ARCamera.transform.eulerAngles.z);
             }
         }
 
@@ -61,4 +66,5 @@ public class MarkerScanner : MonoBehaviour
             // Handle removed event
         }
     }
+
 }
