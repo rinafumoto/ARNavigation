@@ -37,7 +37,6 @@ public class Tracking : MonoBehaviour
         prevPosition = currPosition;
         Quaternion diffrot = ARCamera.transform.rotation * Quaternion.Inverse(anchor.transform.rotation);
         minimapCamera.transform.eulerAngles = new Vector3(90, diffrot.eulerAngles.y, 0);
-        text.text = minimapCamera.transform.eulerAngles.ToString();
         if (dropdown.GetComponent<Dropdown>().value != 0)
         {
             dest = GameObject.Find(dropdown.GetComponent<Dropdown>().captionText.text);

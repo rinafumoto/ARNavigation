@@ -57,7 +57,7 @@ public class MarkerScanner : MonoBehaviour
                 marker = GameObject.Find(updatedImage.referenceImage.name);
                 minimapCamera.transform.position = marker.transform.position;
                 anchor.transform.position = ARCamera.transform.position;
-                anchor.transform.eulerAngles = new Vector3(ARCamera.transform.eulerAngles.x, ARCamera.transform.eulerAngles.y - marker.transform.eulerAngles.y, ARCamera.transform.eulerAngles.z);
+                anchor.transform.eulerAngles = ARCamera.transform.eulerAngles + new Vector3(0, -marker.transform.eulerAngles.y, 0);
             }
         }
 
