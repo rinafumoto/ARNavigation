@@ -20,7 +20,8 @@ public class Tracking : MonoBehaviour
     private GameObject dest;
     public GameObject arrow;
     private Vector3 direction;
-    private bool selected;
+    public bool selected;
+    public GameObject dest_point;
 
     // Start is called before the first frame update
     void Start()
@@ -62,8 +63,17 @@ public class Tracking : MonoBehaviour
         {
             dropdown.options.RemoveAt(0);
             arrow.SetActive(true);
+            dest_point.SetActive(true);
             selected = true;
         }
+        UpdateDestinationPoint();
+    }
+
+    public void UpdateDestinationPoint()
+    {
         dest = GameObject.Find(dropdown.captionText.text);
+        pointer.transform.eulerAngles = new Vector3(0, minimapCamera.transform.eulerAngles.y, 0);
+        Vector3 dest_pos = pointer.transform.InverseTransformPoint(dest.transform.position);
+        dest_point.transform.position = new Vector3(ARCamera.transform.TransformPoint(dest_pos).x, 0, ARCamera.transform.TransformPoint(dest_pos).z);
     }
 }

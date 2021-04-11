@@ -58,6 +58,11 @@ public class MarkerScanner : MonoBehaviour
                 minimapCamera.transform.position = marker.transform.position;
                 anchor.transform.position = ARCamera.transform.position;
                 anchor.transform.eulerAngles = ARCamera.transform.eulerAngles + new Vector3(0, -marker.transform.eulerAngles.y, 0);
+                Tracking tracking = GetComponent<Tracking>();
+                if(tracking.selected)
+                {
+                    tracking.UpdateDestinationPoint();
+                }
             }
         }
 

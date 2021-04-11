@@ -3,41 +3,11 @@
     "m_SelectedPackage": {
         "deviceId": "ZE2225L6KT",
         "name": "com.DefaultCompany.FYP2",
-        "processId": 32470,
+        "processId": 19401,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 18161,
-            "exited": true
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 21129,
-            "exited": true
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 3277,
-            "exited": true
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 4961,
-            "exited": true
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 10716,
-            "exited": true
-        },
         {
             "deviceId": "ZE2225L6KT",
             "name": "com.motorola.launcher3",
@@ -48,12 +18,60 @@
             "deviceId": "ZE2225L6KT",
             "name": "com.DefaultCompany.FYP2",
             "processId": 15637,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "ZE2225L6KT",
             "name": "com.DefaultCompany.FYP2",
             "processId": 32470,
+            "exited": true
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 3015,
+            "exited": true
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 24205,
+            "exited": true
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 28277,
+            "exited": true
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.android.vending",
+            "processId": 30890,
+            "exited": false
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 32678,
+            "exited": false
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 6234,
+            "exited": false
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 12229,
+            "exited": false
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 19401,
             "exited": false
         }
     ],
