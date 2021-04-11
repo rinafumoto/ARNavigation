@@ -19,6 +19,7 @@ public class Tracking : MonoBehaviour
     public GameObject pointer;
     private GameObject dest;
     public GameObject arrow;
+    private Vector3 direction;
 
     // Start is called before the first frame update
     void Start()
@@ -47,6 +48,8 @@ public class Tracking : MonoBehaviour
             line.enabled = true;
             arrow.SetActive(true);
             arrow.transform.position = ARCamera.transform.position + ARCamera.transform.forward * 3 - ARCamera.transform.up;
+            direction = line.GetPosition(1) - pointer.transform.position;
+            arrow.transform.eulerAngles = new Vector3(0, ARCamera.transform.eulerAngles.y + Vector3.SignedAngle(minimapCamera.transform.up, direction, Vector3.up), 0);
         }
     }
 }

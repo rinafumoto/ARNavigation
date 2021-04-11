@@ -3,315 +3,51 @@
     "m_SelectedPackage": {
         "deviceId": "ZE2225L6KT",
         "name": "com.DefaultCompany.FYP2",
-        "processId": 23771,
+        "processId": 15637,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 18161,
+            "exited": true
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 21129,
+            "exited": true
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 3277,
+            "exited": true
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 4961,
+            "exited": true
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 10716,
+            "exited": true
+        },
+        {
+            "deviceId": "ZE2225L6KT",
             "name": "com.motorola.launcher3",
-            "processId": 1556,
+            "processId": 14162,
             "exited": false
         },
         {
             "deviceId": "ZE2225L6KT",
             "name": "com.DefaultCompany.FYP2",
-            "processId": 6499,
-            "exited": true
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 10966,
-            "exited": true
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 14252,
-            "exited": true
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 17564,
-            "exited": true
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 21075,
-            "exited": true
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 26645,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 8879,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 21096,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 23891,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 26113,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 29149,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 400,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 6299,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 10542,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 14005,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 17706,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 21702,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 23100,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 25681,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 31579,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 2628,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 18248,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 19991,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 26064,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 12953,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 14969,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 18526,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 20945,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 22944,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 26122,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 31928,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 3572,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 10040,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 11670,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 14271,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 16118,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 18328,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 21072,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 23870,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 26053,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 27966,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 4879,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 6902,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 8384,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 9691,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 11120,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 13378,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 14371,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 15870,
-            "exited": false
-        },
-        {
-            "deviceId": "ZE2225L6KT",
-            "name": "com.DefaultCompany.FYP2",
-            "processId": 23771,
+            "processId": 15637,
             "exited": false
         }
     ],
