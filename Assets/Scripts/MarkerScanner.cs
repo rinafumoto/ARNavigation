@@ -14,7 +14,7 @@ public class MarkerScanner : MonoBehaviour
     public GameObject minimapCamera;
     public GameObject ARCamera;
     public GameObject map;
-    public GameObject marker;
+    private GameObject marker;
     private bool scanned;
     public GameObject anchor;
     //private NavMeshPath navmesh;

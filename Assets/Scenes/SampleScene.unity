@@ -1708,7 +1708,6 @@ MonoBehaviour:
   minimapCamera: {fileID: 849798237}
   ARCamera: {fileID: 1789304756}
   map: {fileID: 355518853}
-  marker: {fileID: 0}
   anchor: {fileID: 788309809}
   m_TrackedImageManager: {fileID: 620102900}
 --- !u!114 &620102902
@@ -1725,12 +1724,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minimapCamera: {fileID: 849798237}
   ARCamera: {fileID: 1789304756}
-  prevPosition: {x: 0, y: 0, z: 0}
-  currPosition: {x: 0, y: 0, z: 0}
   text: {fileID: 1090989834}
   anchor: {fileID: 788309809}
   path: {fileID: 350594622}
-  dropdown: {fileID: 311328039}
+  dropdown: {fileID: 311328041}
   pointer: {fileID: 895133997}
   arrow: {fileID: 810783083}
 --- !u!1 &669865384

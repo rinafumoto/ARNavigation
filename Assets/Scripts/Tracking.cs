@@ -8,18 +8,19 @@ public class Tracking : MonoBehaviour
 {
     public GameObject minimapCamera;
     public GameObject ARCamera;
-    public Vector3 prevPosition;
-    public Vector3 currPosition;
+    private Vector3 prevPosition;
+    private Vector3 currPosition;
     public Text text;
     public GameObject anchor;
     private NavMeshPath navmesh;
     public GameObject path;
     private LineRenderer line;
-    public GameObject dropdown;
+    public Dropdown dropdown;
     public GameObject pointer;
     private GameObject dest;
     public GameObject arrow;
     private Vector3 direction;
+    private bool selected;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,10 @@ public class Tracking : MonoBehaviour
         prevPosition = anchor.transform.InverseTransformPoint(ARCamera.transform.position);
         navmesh = new NavMeshPath();
         line = path.GetComponent<LineRenderer>();
+        selected = false;
+        dropdown.onValueChanged.AddListener(delegate {
+            DropdownValueChanged(dropdown);
+        });
     }
 
     // Update is called once per frame
@@ -39,17 +44,26 @@ public class Tracking : MonoBehaviour
         prevPosition = currPosition;
         Quaternion diffrot = ARCamera.transform.rotation * Quaternion.Inverse(anchor.transform.rotation);
         minimapCamera.transform.eulerAngles = new Vector3(90, diffrot.eulerAngles.y, 0);
-        if (dropdown.GetComponent<Dropdown>().value != 0)
+        if (selected)
         {
-            dest = GameObject.Find(dropdown.GetComponent<Dropdown>().captionText.text);
             NavMesh.CalculatePath(pointer.transform.position, dest.transform.position, NavMesh.AllAreas, navmesh);
             line.positionCount = navmesh.corners.Length;
             line.SetPositions(navmesh.corners);
             line.enabled = true;
-            arrow.SetActive(true);
             arrow.transform.position = ARCamera.transform.position + ARCamera.transform.forward * 3 - ARCamera.transform.up;
             direction = line.GetPosition(1) - pointer.transform.position;
             arrow.transform.eulerAngles = new Vector3(0, ARCamera.transform.eulerAngles.y + Vector3.SignedAngle(minimapCamera.transform.up, direction, Vector3.up), 0);
         }
+    }
+
+    void DropdownValueChanged(Dropdown change)
+    {
+        if (!selected && change.value != 0)
+        {
+            dropdown.options.RemoveAt(0);
+            arrow.SetActive(true);
+            selected = true;
+        }
+        dest = GameObject.Find(dropdown.captionText.text);
     }
 }
