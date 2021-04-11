@@ -18,6 +18,7 @@ public class Tracking : MonoBehaviour
     public GameObject dropdown;
     public GameObject pointer;
     private GameObject dest;
+    public GameObject arrow;
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +45,8 @@ public class Tracking : MonoBehaviour
             line.positionCount = navmesh.corners.Length;
             line.SetPositions(navmesh.corners);
             line.enabled = true;
+            arrow.SetActive(true);
+            arrow.transform.position = ARCamera.transform.position + ARCamera.transform.forward * 3 - ARCamera.transform.up;
         }
     }
 }
