@@ -51,9 +51,14 @@ public class Tracking : MonoBehaviour
             line.positionCount = navmesh.corners.Length;
             line.SetPositions(navmesh.corners);
             line.enabled = true;
-            arrow.transform.position = ARCamera.transform.position + ARCamera.transform.forward * 3 - ARCamera.transform.up;
             direction = line.GetPosition(1) - pointer.transform.position;
             arrow.transform.eulerAngles = new Vector3(0, ARCamera.transform.eulerAngles.y + Vector3.SignedAngle(minimapCamera.transform.up, direction, Vector3.up), 0);
+            pointer.transform.eulerAngles = new Vector3(0, minimapCamera.transform.eulerAngles.y, 0);
+            Vector3 dest_pos = pointer.transform.InverseTransformPoint(dest.transform.position);
+            GameObject camera_pos = new GameObject();
+            camera_pos.transform.position = ARCamera.transform.position;
+            camera_pos.transform.eulerAngles = new Vector3(0, ARCamera.transform.eulerAngles.y, 0);
+            dest_point.transform.position = camera_pos.transform.TransformPoint(dest_pos);
         }
     }
 
@@ -66,14 +71,6 @@ public class Tracking : MonoBehaviour
             dest_point.SetActive(true);
             selected = true;
         }
-        UpdateDestinationPoint();
-    }
-
-    public void UpdateDestinationPoint()
-    {
         dest = GameObject.Find(dropdown.captionText.text);
-        pointer.transform.eulerAngles = new Vector3(0, minimapCamera.transform.eulerAngles.y, 0);
-        Vector3 dest_pos = pointer.transform.InverseTransformPoint(dest.transform.position);
-        dest_point.transform.position = new Vector3(ARCamera.transform.TransformPoint(dest_pos).x, 0, ARCamera.transform.TransformPoint(dest_pos).z);
     }
 }
