@@ -538,7 +538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 290225580}
   m_Layer: 0
-  m_Name: Kitchen
+  m_Name: KITCHEN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -648,13 +648,13 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Destinations
+    - m_Text: DESTINATIONS
       m_Image: {fileID: 0}
-    - m_Text: Room
+    - m_Text: ROOM
       m_Image: {fileID: 0}
-    - m_Text: Kitchen
+    - m_Text: KITCHEN
       m_Image: {fileID: 0}
-    - m_Text: Toilet
+    - m_Text: TOILET
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3791,7 +3791,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1492573369}
   m_Layer: 0
-  m_Name: Room
+  m_Name: ROOM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4818,7 +4818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2059332607}
   m_Layer: 0
-  m_Name: Toilet
+  m_Name: TOILET
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
