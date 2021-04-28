@@ -3,8 +3,8 @@
     "m_SelectedPackage": {
         "deviceId": "ZE2225L6KT",
         "name": "com.DefaultCompany.FYP2",
-        "processId": 20399,
-        "exited": false
+        "processId": 12518,
+        "exited": true
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -79,6 +79,42 @@
             "name": "com.DefaultCompany.FYP2",
             "processId": 20399,
             "exited": false
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 25627,
+            "exited": false
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 26997,
+            "exited": false
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 6448,
+            "exited": false
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 7778,
+            "exited": true
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 11574,
+            "exited": false
+        },
+        {
+            "deviceId": "ZE2225L6KT",
+            "name": "com.DefaultCompany.FYP2",
+            "processId": 12518,
+            "exited": true
         },
         {
             "deviceId": "VFFNW19C06007642",
