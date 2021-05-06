@@ -27,6 +27,7 @@ public class Tracking : MonoBehaviour
     private Quaternion diffrot;
     private bool selected;
     public Text text;
+    public RectTransform rect;
 
 
     // Start is called before the first frame update
@@ -44,6 +45,38 @@ public class Tracking : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (dropdown.IsActive())
+        {
+            if (Input.touchCount == 2 && RectTransformUtility.RectangleContainsScreenPoint(rect, Input.GetTouch(0).position) && RectTransformUtility.RectangleContainsScreenPoint(rect, Input.GetTouch(1).position))
+            {
+                Touch touchZero = Input.GetTouch(0);
+                Touch touchOne = Input.GetTouch(1);
+
+                // Find the position in the previous frame of each touch.
+                Vector2 touchZeroPrevPos = touchZero.position - touchZero.deltaPosition;
+                Vector2 touchOnePrevPos = touchOne.position - touchOne.deltaPosition;
+
+                // Find the magnitude of the vector (the distance) between the touches in each frame.
+                float prevTouchDeltaMag = (touchZeroPrevPos - touchOnePrevPos).magnitude;
+                float touchDeltaMag = (touchZero.position - touchOne.position).magnitude;
+
+                // Find the difference in the distances between each frame.
+                float deltaMagnitudeDiff = prevTouchDeltaMag - touchDeltaMag;
+
+                minimapCamera.transform.position = minimapCamera.transform.position + Vector3.up * deltaMagnitudeDiff / 10;
+                if(minimapCamera.transform.position.y < 2)
+                {
+                    minimapCamera.transform.position = new Vector3(minimapCamera.transform.position.x, 2, minimapCamera.transform.position.z);
+                }
+                if(minimapCamera.transform.position.y > 20)
+                {
+                    minimapCamera.transform.position = new Vector3(minimapCamera.transform.position.x, 20, minimapCamera.transform.position.z);
+                }
+
+                pointer.transform.position = new Vector3(pointer.transform.position.x, 0, pointer.transform.position.z);
+
+            }
+        }
         List<string> options = new List<string>();
         int skip = 0;
         if (!selected)

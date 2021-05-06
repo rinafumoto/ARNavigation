@@ -1772,6 +1772,7 @@ MonoBehaviour:
   ARCamera: {fileID: 1789304756}
   map: {fileID: 355518853}
   anchor: {fileID: 788309809}
+  pointer: {fileID: 895133997}
   m_TrackedImageManager: {fileID: 620102900}
 --- !u!114 &620102902
 MonoBehaviour:
@@ -1794,6 +1795,7 @@ MonoBehaviour:
   dest_point: {fileID: 1198840844}
   dropdown: {fileID: 311328041}
   text: {fileID: 1090989834}
+  rect: {fileID: 1108268807}
 --- !u!1 &669865384
 GameObject:
   m_ObjectHideFlags: 0
