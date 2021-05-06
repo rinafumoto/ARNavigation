@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,6 +26,7 @@ public class Tracking : MonoBehaviour
     private LineRenderer line;
     private Quaternion diffrot;
     private bool selected;
+    public Text text;
 
 
     // Start is called before the first frame update
@@ -42,6 +44,26 @@ public class Tracking : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        List<string> options = new List<string>();
+        int skip = 0;
+        if (!selected)
+        {
+            skip = 1;
+            options.Add(dropdown.options[0].text);
+        }
+        for (int i = skip; i < dropdown.options.Count; ++i)
+        {
+            GameObject destination = GameObject.Find(dropdown.options[i].text.Split(' ')[0]);
+            NavMesh.CalculatePath(pointer.transform.position, destination.transform.position, NavMesh.AllAreas, navmesh);
+            float dist = 0.0f;
+            for (int j = 1; j < navmesh.corners.Length; ++j)
+            {
+                dist += Vector3.Distance(navmesh.corners[j - 1], navmesh.corners[j]);
+            }
+            options.Add(dropdown.options[i].text.Split(' ')[0] + " (" + Math.Round(dist,2) + "m)");
+        }
+        dropdown.options.Clear();
+        dropdown.AddOptions(options);
         currPosition = anchor.transform.InverseTransformPoint(ARCamera.transform.position);
         diffPosition = currPosition - prevPosition;
         diffPosition.y = 0.0f;
@@ -75,6 +97,6 @@ public class Tracking : MonoBehaviour
             dest_point.SetActive(true);
             selected = true;
         }
-        dest = GameObject.Find(dropdown.captionText.text);
+        dest = GameObject.Find(dropdown.captionText.text.Split(' ')[0]);
     }
 }

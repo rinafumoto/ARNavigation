@@ -1793,6 +1793,7 @@ MonoBehaviour:
   arrow: {fileID: 810783083}
   dest_point: {fileID: 1198840844}
   dropdown: {fileID: 311328041}
+  text: {fileID: 1090989834}
 --- !u!1 &669865384
 GameObject:
   m_ObjectHideFlags: 0
