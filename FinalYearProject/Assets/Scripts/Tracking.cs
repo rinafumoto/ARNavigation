@@ -15,6 +15,7 @@ public class Tracking : MonoBehaviour
     public GameObject arrow;
     public GameObject dest_point;
     public Dropdown dropdown;
+    public RectTransform rect;
     private GameObject dest;
     private GameObject camera_pos;
     private Vector3 prevPosition;
@@ -26,11 +27,7 @@ public class Tracking : MonoBehaviour
     private LineRenderer line;
     private Quaternion diffrot;
     private bool selected;
-    public Text text;
-    public RectTransform rect;
 
-
-    // Start is called before the first frame update
     void Start()
     {
         prevPosition = anchor.transform.InverseTransformPoint(ARCamera.transform.position);
@@ -42,7 +39,6 @@ public class Tracking : MonoBehaviour
         });
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (dropdown.IsActive())
@@ -52,15 +48,12 @@ public class Tracking : MonoBehaviour
                 Touch touchZero = Input.GetTouch(0);
                 Touch touchOne = Input.GetTouch(1);
 
-                // Find the position in the previous frame of each touch.
                 Vector2 touchZeroPrevPos = touchZero.position - touchZero.deltaPosition;
                 Vector2 touchOnePrevPos = touchOne.position - touchOne.deltaPosition;
 
-                // Find the magnitude of the vector (the distance) between the touches in each frame.
                 float prevTouchDeltaMag = (touchZeroPrevPos - touchOnePrevPos).magnitude;
                 float touchDeltaMag = (touchZero.position - touchOne.position).magnitude;
 
-                // Find the difference in the distances between each frame.
                 float deltaMagnitudeDiff = prevTouchDeltaMag - touchDeltaMag;
 
                 minimapCamera.transform.position = minimapCamera.transform.position + Vector3.up * deltaMagnitudeDiff / 10;
